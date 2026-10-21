@@ -1,0 +1,24 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#eef4ff;display:flex;justify-content:center;padding:30px 15px}
+.container{background:white;max-width:400px;width:100%;padding:30px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.08)}
+h1{text-align:center;color:#1a3a8f;font-size:22px}
+.subtitle{text-align:center;color:#6b7280;font-size:13px;margin:6px 0 24px}
+.form-group{margin-bottom:16px}
+.form-group label{font-size:12px;font-weight:700;display:block;margin-bottom:6px;color:#333}
+.form-group input{width:100%;padding:12px;border:1.5px solid #dbeafe;border-radius:8px;outline:none;font-size:14px}
+.form-group input:focus{border-color:#2563eb;background:#f8fbff}
+.photo-preview{margin-top:8px;text-align:center}
+.photo-preview img{width:70px;height:70px;border-radius:50%;object-fit:cover;border:2px solid #2563eb}
+button[type="submit"]{width:100%;padding:12px;background:#2563eb;color:white;border:none;border-radius:8px;font-weight:700;cursor:pointer;margin-top:10px}
+button[type="submit"]:hover{background:#1e40af}
+.form-message{font-size:12px;margin-top:8px;color:red;min-height:16px}
+
+.card-result{margin-top:30px;text-align:center;border-top:1px solid #eee;padding-top:20px}
+.card-result h2{font-size:14px;color:#6b7280;margin-bottom:14px}
+.student-card{background:#2563eb;color:white;border-radius:12px;padding:20px;display:flex;gap:14px;align-items:center;text-align:left;box-shadow:0 8px 20px rgba(37,99,235,0.3)}
+.card-photo{width:80px;height:80px;border-radius:10px;object-fit:cover;border:2px solid white;background:white;flex-shrink:0}
+.card-info h3{font-size:16px;margin-bottom:4px;text-transform:capitalize}
+.card-info p{font-size:12px;margin:2px 0;opacity:0.9}
+.card-label{display:inline-block;margin-top:8px;background:white;color:#2563eb;padding:3px 10px;border-radius:12px;font-size:9px;font-weight:800}
+.download-btn{margin-top:12px;padding:8px 16px;background:white;border:1px solid #2563eb;color:#2563eb;border-radius:20px;font-size:12px;font-weight:700;cursor:pointer}
+

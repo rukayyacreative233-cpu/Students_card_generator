@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Card Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Student Card Generator</h1>
+  <p class="subtitle">Create your own student ID card</p>
+
+  <form id="studentForm">
+    <div class="form-group">
+      <label>Student Photo</label>
+      <input type="file" id="studentPhoto" accept="image/*" required>
+      <div id="photoPreview" class="photo-preview"></div>
+    </div>
+
+    <div class="form-group">
+      <label>Full Name</label>
+      <input type="text" id="fullName" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="form-group">
+      <label>School Name</label>
+      <input type="text" id="schoolName" placeholder="Enter your school" required>
+    </div>
+
+    <div class="form-group">
+      <label>Course of Study</label>
+      <input type="text" id="course" placeholder="Enter your course" required>
+    </div>
+
+    <button type="submit">Generate My Card</button>
+    <p id="formMessage" class="form-message" aria-live="polite"></p>
+  </form>
+
+  <div id="cardResult" class="card-result" hidden>
+    <h2>Your Student Card</h2>
+    
+    <div class="student-card">
+      <img id="cardPhoto" class="card-photo" src="" alt="Student Photo">
+      <div class="card-info">
+        <h3 id="cardStudentName">Student Name</h3>
+        <p id="cardSchoolName">School Name</p>
+        <p id="cardCourse">Course of Study</p>
+        <p id="cardNumber">Card No: SC-2026</p>
+        <span class="card-label">STUDENT</span>
+      </div>
+    </div>
+    <button id="downloadBtn" class="download-btn">Download Card</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
